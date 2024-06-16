@@ -21,8 +21,9 @@ public class ShoppingHome extends BasePage{
 	By loggedInName = By.cssSelector("li:nth-of-type(10) > a");
 	By deleteAcc = By.cssSelector("[href='\\/delete_account']");
 	By cookie = By.cssSelector(".fc-dialog-container [role='dialog']:nth-of-type(1) [role='button']:nth-of-type(1) .fc-button-label");
-	
-	
+	By productBtn = By.cssSelector("div:nth-of-type(2) > .product-image-wrapper > .choose > .nav.nav-justified.nav-pills  a");
+			
+			
 	public WebElement getloginBtn() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(loginBtn);
@@ -44,6 +45,10 @@ public class ShoppingHome extends BasePage{
 	public WebElement getCookie() throws IOException {
 		this.driver = getDriver();
 		return driver.findElement(cookie);
+	}
+	public WebElement getProductBtn() throws IOException {
+		this.driver = getDriver();
+		return driver.findElement(productBtn);
 	}
 
 }
