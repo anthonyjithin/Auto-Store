@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-16T13:02:25 IST" name="Default suite" finished-at="2024-06-16T13:02:37 IST" duration-ms="12409">
+  <suite started-at="2024-06-16T17:13:10 IST" name="Default suite" finished-at="2024-06-16T17:13:22 IST" duration-ms="11851">
     <groups>
     </groups>
-    <test started-at="2024-06-16T13:02:25 IST" name="Default test" finished-at="2024-06-16T13:02:37 IST" duration-ms="12409">
-      <class name="uk.co.automationtesting.LogoutUserTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:25 IST" name="setup" finished-at="2024-06-16T13:02:31 IST" duration-ms="6094" status="PASS">
+    <test started-at="2024-06-16T17:13:10 IST" name="Default test" finished-at="2024-06-16T17:13:22 IST" duration-ms="11851">
+      <class name="uk.co.automationtesting.ProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.ProductPageTest@130161f7]" started-at="2024-06-16T17:13:10 IST" name="setup" finished-at="2024-06-16T17:13:17 IST" duration-ms="6488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoutUserTest()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:31 IST" name="logoutUserTest" finished-at="2024-06-16T13:02:37 IST" duration-ms="5578" status="PASS">
+        <test-method signature="productPageTest()[pri:0, instance:uk.co.automationtesting.ProductPageTest@130161f7]" started-at="2024-06-16T17:13:17 IST" name="productPageTest" finished-at="2024-06-16T17:13:21 IST" duration-ms="4408" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product list page not loaded]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product list page not loaded
+at org.junit.Assert.fail(Assert.java:88)
+at uk.co.automationtesting.ProductPageTest.productPageTest(ProductPageTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:37 IST" name="tearDown" finished-at="2024-06-16T13:02:37 IST" duration-ms="431" status="PASS">
+        </test-method> <!-- productPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.ProductPageTest@130161f7]" started-at="2024-06-16T17:13:21 IST" name="tearDown" finished-at="2024-06-16T17:13:22 IST" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- uk.co.automationtesting.LogoutUserTest -->
+      </class> <!-- uk.co.automationtesting.ProductPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
