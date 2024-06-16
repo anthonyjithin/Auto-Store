@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-16T13:02:25 IST" name="Default suite" finished-at="2024-06-16T13:02:37 IST" duration-ms="12409">
+    <groups>
+    </groups>
+    <test started-at="2024-06-16T13:02:25 IST" name="Default test" finished-at="2024-06-16T13:02:37 IST" duration-ms="12409">
+      <class name="uk.co.automationtesting.LogoutUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:25 IST" name="setup" finished-at="2024-06-16T13:02:31 IST" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutUserTest()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:31 IST" name="logoutUserTest" finished-at="2024-06-16T13:02:37 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.LogoutUserTest@68999068]" started-at="2024-06-16T13:02:37 IST" name="tearDown" finished-at="2024-06-16T13:02:37 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.automationtesting.LogoutUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

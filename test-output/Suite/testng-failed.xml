@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="uk.co.automationtesting.DeleteUserAcc">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- uk.co.automationtesting.DeleteUserAcc -->
+      <class name="uk.co.automationtesting.RegisterUserTest">
+        <methods>
+          <include name="registerUser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- uk.co.automationtesting.RegisterUserTest -->
+      <class name="uk.co.automationtesting.LoginUserTest">
+        <methods>
+          <include name="loginUserTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- uk.co.automationtesting.LoginUserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
